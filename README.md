@@ -1,12 +1,8 @@
-Here’s a **README section** you can use for your GitHub repository based on the two images you provided:
-
----
-
 ## 💻 4x4 Bit Array Multiplier using Full and Half Adders
 
 This project implements a **4x4 bit array multiplier** designed using basic building blocks like **AND gates, Half Adders (HA), and Full Adders (FA)**. It multiplies two 4-bit binary numbers and produces an 8-bit product.
 
-### 🧠 Logic Diagram
+###  Logic Diagram
 
 The below image illustrates the **logical architecture** of the 4x4 array multiplier. Each row represents a partial product generated using AND gates, which are then added using full and half adders in a structured array format.
 
@@ -27,17 +23,10 @@ The image below shows the **Simulink block-level implementation** of the same lo
 - Each FA and HA block is clearly labeled for better traceability.
 - Inputs `A[3:0]` and `B[3:0]` are multiplied to generate output `Z[7:0]`.
 
-### 📁 Features
+### Features
 
 - Simple and modular design.
 - Logical and hardware-friendly implementation.
 - Useful for FPGA or ASIC-level multiplication modules.
 
----
-
-Let me know if you want to add simulation results, waveform screenshots, or performance comparison in the README too. Also, I can help you convert this into a Markdown file (`README.md`) if you'd like.# 4-bit-signed-parallel-multiplier-verilog-
-
-
-
-![image](https://github.com/user-attachments/assets/6fbc506a-7367-4f99-bdc4-466c75541728)
 
