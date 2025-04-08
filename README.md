@@ -13,7 +13,7 @@ The below image illustrates the **logical architecture** of the 4x4 array multip
 - Partial products are generated using AND gates.
 - Each diagonal summation is handled by HAs and FAs as per array multiplication logic.
 
-### 🛠️ Simulink Implementation
+###  Simulink Implementation
 
 The image below shows the **Simulink block-level implementation** of the same logic using built-in logic gates and custom FA/HA subsystems.
 
@@ -23,7 +23,7 @@ The image below shows the **Simulink block-level implementation** of the same lo
 - Each FA and HA block is clearly labeled for better traceability.
 - Inputs `A[3:0]` and `B[3:0]` are multiplied to generate output `Z[7:0]`.
 
-### Features
+###  Features
 
 - Simple and modular design.
 - Logical and hardware-friendly implementation.
